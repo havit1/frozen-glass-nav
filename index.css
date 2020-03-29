@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./fullimg.png);
+}
+
+.background-image__effect {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(15px);
+}
+/* 
+.background-image__effect::before {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-image: url(./fullimg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
